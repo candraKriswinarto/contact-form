@@ -126,7 +126,7 @@ ul {
 
 .form-input input {
   height: 2.5rem;
-  text-indent: 7px;
+  text-indent: 1em;
   border: .5px solid #149cc567;
 }
 
@@ -136,6 +136,7 @@ ul {
 
 .form-input form textarea {
   height: 6rem;
+  padding: 1em;
   border: .5px solid #149cc567;
 }
 
@@ -147,7 +148,7 @@ ul {
   width: 100%;
   margin: 1rem 0 2rem 0;
   height: 2.5rem;
-  background: #149cc5;
+  background: var(--secondary-color);
   border: none;
   outline: none;
   color: #fff;
@@ -160,8 +161,8 @@ ul {
 
 .form-input form button:hover {
   background: #fff;
-  color: #149cc5;
-  border: 1px solid #149cc5;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 /* LARGE SCREEN */

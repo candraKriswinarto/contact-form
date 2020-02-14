@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="./style.css">
-  <script src="https://kit.fontawesome.com/7414e22221.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7414e22221.js"></script>
   <title>Contact Us</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
     </div>
   </section>
 
-  <section id="form-box">
+  <section id="form-box" class="animated jackInTheBox">
     <div class="container">
       <div class="form-box form-box-grid">
         <div class="form-info">
@@ -34,19 +35,19 @@
           <form>
             <p>
               <label for="first_name">First name</label>
-              <input type="text" name="first_name" placeholder="First Name...">
+              <input type="text" name="first_name" placeholder="First Name..." required>
             </p>
             <p>
               <label for="Last_name">Last name</label>
-              <input type="text" name="last_name" placeholder="Last Name...">
+              <input type="text" name="last_name" placeholder="Last Name..." required>
             </p>
             <p class="full">
               <label for="email">Email address</label>
-              <input type="email" name="email" placeholder="Email Here...">
+              <input type="email" name="email" placeholder="Email Here..." required>
             </p>
             <p class="full">
               <label for="message">Your message</label>
-              <textarea name="message"></textarea>
+              <textarea name="message" required></textarea>
             </p>
             <p class="full">
               <button type="submit">Send Message</button>
