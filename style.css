@@ -40,7 +40,7 @@ ul {
 
 .heading-wrap h1 {
   margin-bottom: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Coda Caption', sans-serif;
 
 }
@@ -169,6 +169,10 @@ ul {
 @media (min-width: 700px) {
   #heading {
     height: 25rem;
+  }
+
+  .heading-wrap h1 {
+    font-size: 2.5rem;
   }
 
   .form-box {
